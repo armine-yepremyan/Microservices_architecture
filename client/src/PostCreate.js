@@ -21,13 +21,6 @@ export default () => {
                         onChange={e => setTitle(e.target.value)}
                         className='form-control'
                     />
-                    <br/>
-                    <label>Content</label>
-                    <textarea 
-                        value={title}
-                        onChange={e => setTitle(e.target.value)}
-                        className='form-control'
-                    />  
                 </div>
                 <button className='btn btn-primary'>Submit</button>
             </form>
@@ -35,3 +28,10 @@ export default () => {
     );
     
 }
+// <br/>
+// <label>Content</label>
+// <textarea 
+//     value={title}
+//     onChange={e => setTitle(e.target.value)}
+//     className='form-control'
+// />  
